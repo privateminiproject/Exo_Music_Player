@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         super.onStop();
         if (Util.SDK_INT > 23) {
             releasePlayer();
+
         }
     }
 
